@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    box-shadow: 0px 5px 5px #000;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 50%;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 5px #000;
+}
+.card-input-task {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+.card-input-task:focus {
+    outline: none;
+}
+.card-task-add {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #26c281;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: #90c695;
+    color: #FFF;
+}
+.card-task-remove {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #c0392b;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: #d64541;
+    color: #FFF;
+}
+.card-seperate {
+    border: 2px solid #000;
+}
+.card-task-list {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.card-task-item {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}

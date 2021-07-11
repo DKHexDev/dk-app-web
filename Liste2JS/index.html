@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste2JS</title>
+    <!-- Importation Fichier CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Importation de la police d'écriture Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 class="title">Liste en Javascript</h1>
+
+    <section class="container">
+        <div class="card">
+            <input id="task-input" class="card-input-task" type="text" placeholder="Nouvelle tâche">
+            <button id="task-btn" class="card-task-add">Ajouter</button>
+            <hr class="card-seperate">
+            <select class="card-input-task" id="task-select"></select>
+            <button id="task-btn-remove" class="card-task-remove">Supprimer</button>
+            <hr class="card-seperate">
+            <ul id="task-list" class="card-task-list"></ul>
+        </div>
+    </section>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9b466c32bb.js" crossorigin="anonymous"></script>
+    <!-- Importation Script JS -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
