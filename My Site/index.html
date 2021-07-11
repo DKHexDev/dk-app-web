@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY SITE</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/9b466c32bb.js" crossorigin="anonymous"></script>
+    <!-- Header.css (Style du haut de la page)-->
+    <link rel="stylesheet" href="./css/header.css">
+    <!-- Footer.css (Style du bas de la page)-->
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Global.css (Style général du site) -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- Fonts.css (Importation des fonts) -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    <!-- Script.js (Importation des scripts JS) -->
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <!-- Header (Haut de la page) -->
+    <header>
+        <nav class="header-container">
+            <a href="./index.html" class="header-title">My Site</a>
+            <div class="header-nav-btn">
+                <div class="header-responsive-btn" onclick="RotateMenuBtn(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <ul class="header-nav">
+                <li class="header-nav-item"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li class="header-nav-item"><a href="#">My Gallery</a></li>
+                <li class="header-nav-item"><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav id="MenuResponsive" class="header-menu-responsive">
+        <ul class="header-nav">
+            <li class="header-nav-item"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+            <li class="header-nav-item"><a href="#">My Gallery</a></li>
+            <li class="header-nav-item"><a href="#">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Banner (1er partie de la page) -->
+    <section class="banner">
+        <i class="banner-icon far fa-gem"></i>
+        <div class="container">
+            <h1 class="banner-title">ETIAM ADIPISCING</h1>
+            <h2 class="banner-description">MAGNA FEUGIAT LOREM DOLOR EGESTAS</h2>
+            <a href="#" class="banner-btn">LEARN MORE</a>
+        </div>
+    </section>
+
+    <!-- Section News (2eme partie de la page) -->
+    <section class="news flex flex-wrap">
+        <article class="news-box flex flex-row">
+            <!-- <div class="flex news-container"> -->
+                <div class="news-img">
+                    <img src="./assets/pic01.jpg" alt="Image réprésentant plusieurs cadenas.">
+                </div> 
+                <div class="news-container">
+                    <h2 class="news-title">INTEGER VITAE LIBERO ACRISUS EGESTAS PLACERAT SOLLICITUDIN</h2>
+                    <p class="news-description">Sed egestas ante et volutpat eros pede semper est vitae luctus metus liero eu augue. Morbi purus libero faucibus adipiscing commodo quis gravida id est.</p>
+                    <a class="news-more" href="#">More</a>
+                </div>             
+            <!-- </div> -->
+        </article>
+
+        <article class="news-box flex flex-row-reverse">
+            <!-- <div class="flex news-container"> -->
+                <div class="news-img">
+                    <img src="./assets/pic02.jpg" alt="Image réprésentant plusieurs cadenas.">
+                </div>  
+                <div class="news-container">
+                    <h2 class="news-title">INTEGER VITAE LIBERO ACRISUS EGESTAS PLACERAT SOLLICITUDIN</h2>
+                    <p class="news-description">Sed egestas ante et volutpat eros pede semper est vitae luctus metus liero eu augue. Morbi purus libero faucibus adipiscing commodo quis gravida id est.</p>
+                    <a class="news-more" href="#">More</a>
+                </div>             
+            <!-- </div> -->
+        </article>
+    </section>
+
+    <!-- Section Gallery (3eme partie de la page) -->
+    <section class="gallery flex flex-wrap">
+        <div class="gallery-container">
+            <h1 class="gallery-title">Aliquam Blandit Mauris</h1>
+            <h5 class="gallery-description">ipsum dolor tempus commodo turpis adipiscing tempor placerat sed amet accumsan</h5>
+        </div>
+        <!-- Première ligne du Flex-row -->
+        <div class="gallery-container-list flex flex-wrap">
+            <ul class="flex flex-wrap flex-row gallery-list">
+                <li>
+                  <img src="./assets/pic03.jpg" alt="Image d'un voile de bateau.">
+                </li>
+                <!-- ... -->
+                <li>
+                    <img src="./assets/pic04.jpg" alt="Image d'un poste de secours sur la plage.">
+                </li>
+                <li>
+                    <img src="./assets/pic05.jpg" alt="Image représentant la mer et la plage.">
+                </li>
+                <li>
+                    <img src="./assets/pic06.jpg" alt="Image d'une planche de surf sur la plage.">
+                </li>
+            </ul>
+            <!-- Deuxième ligne du Flex-row -->
+            <ul class="flex flex-wrap flex-row gallery-list">
+                <li>
+                    <img src="./assets/pic07.jpg" alt="Image d'une salle à manger et d'une table à manger.">
+                </li>
+                <li>
+                    <img src="./assets/pic08.jpg" alt="Image de plusieurs tasse sur une table.">
+                </li>
+                <li>
+                    <img src="./assets/pic09.jpg" alt="Image d'une grande roue de couleur blanche.">
+                </li>
+                <li>
+                    <img src="./assets/pic10.jpg" alt="Image d'une fôret dense.">
+                </li>
+              </ul>
+        </div>
+        <div class="flex gallery-container">
+            <a class="gallery-btn" href="#">Tempus Aliquam</a>
+        </div>
+    </section>
+
+    <!-- Section Info (4eme partie de la page) -->
+    <section class="info">
+        <h1 class="info-title">MAGNA SED CONSEQUAT TEMPUS</h1>
+        <h5 class="info-description">ipsum dolor tempus commodo turpis adipiscing tempor placerat sed amet accumsan</h5>
+        <div class="flex info-container">
+            <a href="#" class="info-btn">Magna Feugiat</a>
+        </div>
+    </section>
+
+    <!-- Section Form (5eme partie de la page) -->
+    <section class="form">
+        <h1 class="form-title">GET IN TOUCH</h1>
+        <h5 class="form-description">Ipsum dolor tempus commodo adipiscing</h5>
+        <div class="flex form-container">
+            <form action="#" method="POST" class="form-util">
+                <div class="flex-row flex form-input-position">
+                    <input class="form-input-name" type="text" name="name" id="name" placeholder="Name" required>
+                    <input class="form-input-email" type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="flex-row form-container-textarea">
+                    <textarea class="form-textarea" name="message" placeholder="Message"></textarea>
+                </div>
+                <div class="flex-row flex form-input-position-2">
+                    <input type="submit" class="form-input-submit" value="SUBMIT">
+                    <input type="reset" class="form-input-reset" value="RESET">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer (Bas de la page) -->
+    <footer class="flex footer">
+        <div class="flex-row footer-container">
+            <hr class="footer-seperate">
+        </div>
+        <div class="flex-row">
+            <ul class="footer-social">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        <div class="flex-row footer-container">
+            <p class="footer-copyright">© My site - By D.K</p>
+        </div>
+    </footer>
+</body>
+</html>
