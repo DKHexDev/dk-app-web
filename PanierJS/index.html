@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PanierJS - Accueil</title>
+    <!-- Importation Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Importation Icons Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Importation Style CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-light">
+    
+    <!-- Bar de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">PanierJS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="bi bi-house-door-fill"></i> Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./panier.html"><i class="bi bi-cart-fill"></i> Panier</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <h1 class="text-center text-uppercase my-5">Bienvenue sur PanierJS</h1>
+
+    <div class="container">
+        <div class="card-deck d-flex justify-content-center flex-wrap my-5">
+            <div class="card" id="1">
+              <img src="./assets/pizza.jpg" class="card-img-top img-fluid" alt="Une pizza.">
+              <div class="card-body">
+                <h5 class="card-title">Pizza</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+              <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                <h3 class="p-0 m-0 font-weight-bolder">11 €</h3>
+                <button type="button" id="BtnAddCart" class="btn btn-primary btn-sm"><i class="bi bi-cart-plus-fill"></i> Ajouter au panier</button>
+              </div>
+            </div>
+            <div class="card" id="2">
+              <img src="./assets/kebab.jpg" class="card-img-top img-fluid" alt="Un kebab.">
+              <div class="card-body">
+                <h5 class="card-title">Kebab</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+              <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                <h3 class="p-0 m-0 font-weight-bolder">8 €</h3>
+                <button type="button" id="BtnAddCart" class="btn btn-primary btn-sm"><i class="bi bi-cart-plus-fill"></i> Ajouter au panier</button>
+              </div>
+            </div>
+            <div class="card" id="3">
+              <img src="./assets/sandwiche.jpg" class="card-img-top img-fluid" alt="Un sandwiche.">
+              <div class="card-body">
+                <h5 class="card-title">Sandwiche</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+              <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                <h3 class="p-0 m-0 font-weight-bolder">5 €</h3>
+                <button type="button" id="BtnAddCart" class="btn btn-primary btn-sm"><i class="bi bi-cart-plus-fill"></i> Ajouter au panier</button>
+              </div>
+            </div>
+            <div class="card" id="4">
+                <img src="./assets/pasta.jpg" class="card-img-top img-fluid" alt="Des pâtes.">
+                <div class="card-body">
+                  <h5 class="card-title">Pâtes</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                  <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                    <h3 class="p-0 m-0 font-weight-bolder">6 €</h3>
+                    <button type="button" id="BtnAddCart" class="btn btn-primary btn-sm"><i class="bi bi-cart-plus-fill"></i> Ajouter au panier</button>
+                  </div>
+            </div>
+            <div class="card" id="5">
+                <img src="./assets/burger.jpg" class="card-img-top img-fluid" alt="Un hamburger.">
+                <div class="card-body">
+                  <h5 class="card-title">Hamburger</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                  <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                    <h3 class="p-0 m-0 font-weight-bolder">9 €</h3>
+                    <button type="button" id="BtnAddCart" class="btn btn-primary btn-sm"><i class="bi bi-cart-plus-fill"></i> Ajouter au panier</button>
+                  </div>
+            </div>
+            <div class="card" id="6">
+                <img src="./assets/cafe.jpg" class="card-img-top img-fluid" alt="Un café.">
+                <div class="card-body">
+                  <h5 class="card-title">Café</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                  <div class="card-footer d-flex flex-row justify-content-between align-items-center">
+                    <h3 class="p-0 m-0 font-weight-bolder">2.50 €</h3>
+                    <button type="button" id="BtnAddCart" class="btn btn-primary btn-sm"><i class="bi bi-cart-plus-fill"></i> Ajouter au panier</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Importation Jquery & Bundle Bootstrap (Popper inclus)  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- Importation Script JS -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
