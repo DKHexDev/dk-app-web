@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: #3c6382;
+    padding: 1rem;
+}
+.header-title {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.task {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #3c6382;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+.task-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 0.5rem;
+}
+.task-form {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #FFF;
+}
+.task-input {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+.task-btn {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: transparent;
+    padding: 0.5rem;
+    border: 1px solid #FFF;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.task-list {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid white;
+    list-style: none;
+}
+.task-item {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
+    background-color: #0a3d62;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.task-item button.fa-times {
+    color: #e55039;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+}
+.task-item .fa-flag {
+    margin-right: 0.5rem;
+}
