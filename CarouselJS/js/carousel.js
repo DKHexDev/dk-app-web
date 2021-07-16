@@ -17,7 +17,6 @@ class Carousel {
 
         for(this.img of carousel.querySelectorAll('img')) {
             this.img.style.height = this.height;
-            console.log(this.img.style);
         }
 
         // On vérifie si l'option timeout est défini.
