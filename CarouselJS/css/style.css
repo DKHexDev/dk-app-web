@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    min-height: 30vh;
+    background-color: #000;
+}
+
+.carousel .item {
+    display: none;
+}
+
+.carousel .item.view {
+    display: block;
+}
+
+.carousel .item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel .item-text {
+    position: absolute;
+    width: 100%;
+    padding: 0.2rem;
+    bottom: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.carousel .item-text h2 {
+    padding-bottom: 2rem;
+}
+
+.carousel .carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 100;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .carousel-controls button {
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
