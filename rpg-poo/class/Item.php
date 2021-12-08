@@ -13,7 +13,7 @@
 
         /**
         * @param string $name Nom de l'item.
-        * @param array $name L'utilité ou les utilités de l'item. (Ex. ["mana" => 10])
+        * @param array $utility L'utilité ou les utilités de l'item. (Ex. ["mana" => 10])
         * @return void Ne retourne rien.
         */
         public function __construct($name, $utility = [])
